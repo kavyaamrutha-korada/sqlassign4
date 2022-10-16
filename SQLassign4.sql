@@ -1,0 +1,14 @@
+create Table custorder(cid int, supplyname nvarchar(20),cs int,shippingname char(20);
+insert into custorder Values(1,'exoitic',2000,'hp');
+select price shippingname from custorder where cs>50 and supplyname='Exoitic';
+create table Employee(eid int, primary key , ename text,ecity text);
+insert into Employee values(1, 'kavya','andhra');
+insert into Employee values(2, 'haritha','sarthnagar');
+insert into Employee values(3, 'chnavya','ramnagar');
+select *from Employee;
+create table cust(cusid int primary key, cusname text);
+insert into cust values(1, 'srikar');
+insert into cust values(2, 'harisri');
+select *from cust ;
+select  custid from cust Where cusname like 'ra%';
+select *from cust ;
